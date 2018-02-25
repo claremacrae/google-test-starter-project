@@ -33,4 +33,6 @@
 
 # Build directories
 cmake-build-debug/
+build32/
+build64/
 .idea/
