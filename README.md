@@ -1,1 +1,1 @@
-# google-test-starter-project
+# googletest-starter-project
