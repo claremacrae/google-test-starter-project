@@ -8,4 +8,7 @@ set(SOURCE_FILES
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} )
 
 add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
-target_link_libraries(${PROJECT_NAME} ${CONAN_LIBS})
+
+# Special mechanism needed to specify libraries to link, when using cmake_multi generator:
+#   http://docs.conan.io/en/latest/integrations/cmake/cmake_multi_generator.html#targets-approach
+conan_target_link_libraries(${PROJECT_NAME})
