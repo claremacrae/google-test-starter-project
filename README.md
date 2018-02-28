@@ -9,10 +9,10 @@ See also https://github.com/claremacrae/googletest-starter-project-separate-fold
 To use:
 
 1. Clone or download this repo
-2. Make sure you have CMake installed
-3. Make sure you have Conan installed
-4. Run `build_and_test.bat`
-5. You can also open `build-windows\googletest-starter-project.sln` in Visual Studio, and build any of the configurations.
+1. Make sure you have CMake installed
+1. Make sure you have Conan installed
+1. Run `build_and_test.bat`
+1. You can also open `build-windows\googletest-starter-project.sln` in Visual Studio, and build any of the configurations.
 
 ## Things to note
 
