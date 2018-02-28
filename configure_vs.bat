@@ -7,4 +7,15 @@ REM Maybe add -s compiler.version=15 ?
 conan install .. -g cmake_multi -s build_type=Debug   -s compiler.runtime=MDd
 conan install .. -g cmake_multi -s build_type=Release -s compiler.runtime=MD
 cmake -G "Visual Studio 15 2017 Win64" ..
+
+cmake --build . --config Release
+cmake --build . --config Debug
+cmake --build . --config MinSizeRel
+cmake --build . --config RelWithDebInfo 
+
+ctest --build-config Release
+ctest --build-config Debug
+ctest --build-config MinSizeRel
+ctest --build-config RelWithDebInfo 
+
 cd ..
