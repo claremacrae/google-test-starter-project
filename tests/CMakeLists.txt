@@ -3,6 +3,7 @@ project(tests)
 set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES
         main.cpp
+        SampleTest.cpp
         )
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} )
