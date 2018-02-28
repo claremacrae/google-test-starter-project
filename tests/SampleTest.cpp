@@ -2,5 +2,5 @@
 
 TEST(SampleTest, SimpleTest)
 {
-    EXPECT_EQ(42, 43); // deliberately failing, to confirm that google test is running
+    EXPECT_EQ(42, 42);
 }
