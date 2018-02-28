@@ -2,7 +2,7 @@
 gtest/1.8.0@bincrafters/stable
 
 [generators]
-cmake
+cmake_multi
 
 [options]
 gtest:shared=False
